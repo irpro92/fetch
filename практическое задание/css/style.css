@@ -1,0 +1,56 @@
+*{
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+h1{
+	font-size: 3em;
+}
+ul{
+	display: flex;
+	flex-direction: column;
+	margin: revert;
+	font-size: 1.3em;
+}
+.form {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
+input {
+	width: 85%;
+
+}
+.butn {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 100%;
+	margin: 3%;
+}
+
+button {
+	width: 32%;
+	border-bottom-style: solid;
+	background: black;
+	color: white;
+}
+.textResult{
+	color: red;
+	font-size: 2em;
+}
